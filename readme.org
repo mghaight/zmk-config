@@ -4,4 +4,4 @@
 
 * Corne v3.1 Layout
 
-My [[https://github.com/foostan/crkbd][Corne keyboard]] layout, =~loosely~= based on the [[https://github.com/manna-harbour/miryoku][Miryoku]] layout.
+My [[https://github.com/foostan/crkbd][Corne keyboard]] layout, /loosely/ based on the [[https://github.com/manna-harbour/miryoku][Miryoku]] layout.
