@@ -53,21 +53,21 @@
                         >;
                 };
                 lower_layer {
-// ---------------------------------------------------------------------------------------------------
-// |  ESC |     |   7   |   8   |   9   |  0  |   |      |   PRV   |   PLY  |   NXT   |       | BSPC |
-// | CTRL | ctr | alt/4 | gui/5 | shf/6 |     |   | LFT  | shf/DWN | gui/UP | alt/RGT |  ctr  | BT1  |
-// | SHFT |     |   1   |   2   |   3   |     |   |      |  volDN  |  volUP |   MUTE  | BTCLR | BT2  |
-//                      |  GUI  |       |     |   | BSPC |         |   ALT  |
+// --------------------------------------------------------------------------------------------------
+// |  ESC |     |   7   |   8   |   9   |  0  |   |     |   PRV   |   PLY  |   NXT   |       | BSPC |
+// | CTRL | ctr | alt/4 | gui/5 | shf/6 |     |   | LFT | shf/DWN | gui/UP | alt/RGT |  ctr  | BT1  |
+// | SHFT |     |   1   |   2   |   3   |     |   |     |  volDN  |  volUP |   MUTE  | BTCLR | BT2  |
+//                      |  GUI  |       |     |   | ENT |  BSPC   |   ALT  |
                         bindings = <
    &kp ESC    &trans       &kp N7       &kp N8        &kp N9	     &kp N0         &trans    &kp C_PREV	&kp C_PP     &kp C_NEXT      &trans     &kp BSPC
    &kp LCTRL  &kp LCTRL	   &hml LALT N4 &hml LGUI N5  &hml LSHIFT N6 &trans	    &kp LEFT  &hmr RSHIFT DOWN	&hmr RGUI UP &hmr RALT RIGHT &kp RCTRL  &bt BT_SEL 0
    &kp LSHFT  &trans       &kp N1       &kp N2        &kp N3         &trans         &trans    &kp C_VOL_DN 	&kp C_VOL_UP &kp C_MUTE      &bt BT_CLR &bt BT_SEL 1
-                                        &kp LGUI      &trans         &trans         &kp BSPC  &trans       	&kp RALT
+                                        &kp LGUI      &trans         &trans         &kp RET   &kp BSPC      	&kp RALT
                         >;
                 };
 
                 raise_layer {
-// -------------------------------------------------------------------------------------
+// -----------------------------------------------------------------------------------------------
 // |  ESC |     |   &   |   8   |   (   |  )  |   |     |       |       |       |         | BSPC |
 // | CTRL | ctr | alt/$ | gui/% | shf/^ |     |   |  -  | shf/= | gui/[ | alt/] | ctr/"\" |  `   |
 // | SHFT |     |   !   |   @   |   #   |     |   |  _  |   +   |   {   |   }   |   "|"   |  ~   |
