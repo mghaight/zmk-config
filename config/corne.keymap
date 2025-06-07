@@ -50,8 +50,8 @@
             //                        |  GUI  | LWR/SPC | TAB |   | RET | RSE/BSPC |  ALT  |
 
             bindings = <
-&kp ESC    &kp Q         &kp W        &kp F        &kp P          &kp B      &kp J    &kp L            &kp U         &kp Y        &kp ;            &kp BSPC
-&kp LCTRL  &hml LGUI A  &hml LALT R  &hml LCTRL S  &hml LSHIFT T  &kp G      &kp M    &hmr RSHIFT N    &hmr RCTRL E  &hmr RALT I  &hmr RGUI O      &kp SQT
+&kp ESC    &kp Q         &kp W        &kp F        &kp P          &kp B      &kp J    &kp L            &kp U         &kp Y        &kp SEMI         &kp BSPC
+&kp LCTRL  &hml LGUI A   &hml LALT R  &hml LCTRL S &hml LSHIFT T  &kp G      &kp M    &hmr RSHIFT N    &hmr RCTRL E  &hmr RALT I  &hmr RGUI O      &kp SQT
 &kp LSHFT  &kp Z         &kp X        &kp C        &kp D          &kp V      &kp K    &kp H            &kp COMMA     &kp DOT      &kp FSLH         &kp TAB
                                       &kp LGUI     &lt 1 SPACE    &kp TAB    &kp RET  &lt 2 BACKSPACE  &kp RALT
             >;
