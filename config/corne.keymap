@@ -47,13 +47,13 @@
             // |  ESC |   Q   |   W   |   F   |    P    |  B  |   |  J  |     L    |   U   |   Y   |   ;   | BSPC |
             // | CTRL | gui/A | alt/R | ctr/S |  shf/T  |  G  |   |  M  |   shf/N  | ctr/E | alt/I | gui/O |  '   |
             // | SHFT |   Z   |   X   |   C   |    D    |  V  |   |  K  |     H    |   ,   |   .   |   /   | TAB  |
-            //                        |  GUI  | LWR/SPC | TAB |   | RET | RSE/BSPC |  ALT  |
+            //                        |  GUI  | LWR/SPC | TAB |   | RET | RSE/BSPC |  ESC  |
 
             bindings = <
 &kp ESC    &kp Q         &kp W        &kp F        &kp P          &kp B      &kp J    &kp L            &kp U         &kp Y        &kp SEMI         &kp BSPC
 &kp LCTRL  &hml LGUI A   &hml LALT R  &hml LCTRL S &hml LSHIFT T  &kp G      &kp M    &hmr RSHIFT N    &hmr RCTRL E  &hmr RALT I  &hmr RGUI O      &kp SQT
 &kp LSHFT  &kp Z         &kp X        &kp C        &kp D          &kp V      &kp K    &kp H            &kp COMMA     &kp DOT      &kp FSLH         &kp TAB
-                                      &kp LGUI     &lt 1 SPC      &kp TAB    &kp RET  &lt 2 BSPC       &kp RALT
+                                      &kp LGUI     &lt 1 SPC      &kp TAB    &kp RET  &lt 2 BSPC       &kp ESC
             >;
         };
 
@@ -62,13 +62,13 @@
             // |  ESC |     |   7   |   8   |   9   |  0  |   |     |   PRV   |   PLY  |   NXT   |       | BSPC |
             // | CTRL |     |   4   |   5   |   6   |     |   | LFT |   DWN   |   UP   |   RGT   |       | BT1  |
             // | SHFT |     |   1   |   2   |   3   |     |   |     |  volDN  |  volUP |   MUTE  | BTCLR | BT2  |
-            //                      |  GUI  |       |     |   | RET |  BSPC   |   ALT  |
+            //                      |  GUI  |       |     |   | RET |  BSPC   |   ESC  |
 
             bindings = <
 &kp ESC    &trans     &kp N7        &kp N8        &kp N9          &kp N0    &trans    &kp C_PREV        &kp C_PP      &kp C_NEXT       &trans      &kp BSPC
 &kp LCTRL  &kp LGUI   &hml LALT N4  &hml LCTRL N5 &hml LSHIFT N6  &trans    &kp LEFT  &kp DOWN 		&kp UP        &kp RIGHT        &trans      &bt BT_SEL 0
 &kp LSHFT  &trans     &kp N1        &kp N2        &kp N3          &trans    &trans    &kp C_VOL_DN      &kp C_VOL_UP  &kp C_MUTE       &bt BT_CLR  &bt BT_SEL 1
-                                    &kp LGUI      &trans          &trans    &kp RET   &kp BSPC          &kp RALT
+                                    &kp LGUI      &trans          &trans    &kp RET   &kp BSPC          &kp ESC
             >;
         };
 
@@ -77,13 +77,13 @@
             // |  ESC |     |   &   |   *   |   (   |  )  |   |     |   +   |       |       |    _    | BSPC |
             // | CTRL |     |   $   |   %   |   ^   |     |   |     |   -   |   [   |   ]   |    \    |  `   |
             // | SHFT |     |   !   |   @   |   #   |     |   |     |   =   |   {   |   }   |   "|"   |  ~   |
-            //                      |  GUI  |  SPC  | TAB |   |     |       |  ALT  |
+            //                      |  GUI  |  SPC  | TAB |   |     |       |  ESC  |
 
             bindings = <
 &kp ESC    &trans     &kp AMPS        &kp ASTRK        &kp LPAR           &kp RPAR    &trans     &kp PLUS           &trans          &trans          &trans           &kp BSPC
 &kp LCTRL  &kp LGUI   &hml LALT DLLR  &hml LCTRL PRCNT &hml LSHIFT CARET  &trans      &trans     &hmr RSHIFT MINUS  &hmr LCTRL LBKT &hmr RALT RBKT  &hmr RGUI BSLH   &kp GRAVE
 &kp LSHFT  &trans     &kp EXCL        &kp AT           &kp HASH           &trans      &trans     &kp EQUAL          &kp LBRC        &kp RBRC        &kp PIPE         &kp TILDE
-                                      &kp LGUI         &kp SPC            &kp TAB     &trans     &trans             &kp RALT
+                                      &kp LGUI         &kp SPC            &kp TAB     &trans     &trans             &kp ESC
             >;
         };
     };
